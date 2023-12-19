@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Outpost 32",
+    "id": "outpost32",
+    "location": "Antarctica",
+    "coordinates": { "lat": -82.8628, "lng": 135 },
+    "titan": "Ghidorah",
+    "markerOffset": 0
+  },
+  {
+    "name": "Outpost 33",
+    "id": "outpost33",
+    "location": "Skull Island",
+    "coordinates": { "lat": -7.9135, "lng": 108.4076 },
+    "titan": "Kong",
+    "markerOffset": 0
+  },
+  {
+    "name": "Outpost 49",
+    "id": "outpost49",
+    "location": "Loch Ness, Scotland",
+    "coordinates": { "lat": 57.3229, "lng": -4.4244 },
+    "titan": "Leviathan",
+    "markerOffset": 0
+  },
+  {
+    "name": "Outpost 53",
+    "id": "outpost53",
+    "location": "Stone Mountain, Georgia",
+    "coordinates": { "lat": 33.8082, "lng": -84.1435 },
+    "titan": "Tiamat",
+    "markerOffset": 0
+  },
+  {
+    "name": "Castle Bravo",
+    "id": "outpost54",
+    "location": "Bermuda Triangle",
+    "coordinates": { "lat": 25.0343, "lng": -71.5241 },
+    "titan": "Godzilla",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 55",
+    "id": "outpost55",
+    "location": "Sedona, Arizona",
+    "coordinates": { "lat": 34.8697, "lng": -111.7611 },
+    "titan": "Scylla",
+    "markerOffset": -10
+  },
+  {
+    "name": "Outpost 56",
+    "id": "outpost56",
+    "location": "Isla de Mara, Mexico",
+    "coordinates": { "lat": 21.1619, "lng": -86.8515 },
+    "titan": "Rodan",
+    "markerOffset": -1
+  },
+  {
+    "name": "Outpost 57",
+    "id": "outpost57",
+    "location": "Machu Pichu, Peru",
+    "coordinates": { "lat": -13.1631, "lng": -72.545 },
+    "titan": "Quetzelcoatl",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 58",
+    "id": "outpost58",
+    "location": "Rio de Janeiro, Brazil",
+    "coordinates": { "lat": -22.9068, "lng": -43.1729 },
+    "titan": "Behemoth",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 61",
+    "id": "outpost61",
+    "location": "Yunnan rainforest, China",
+    "coordinates": { "lat": 24.35, "lng": 101.3155 },
+    "titan": "Mothra",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 65",
+    "id": "outpost65",
+    "location": "Egypt",
+    "coordinates": { "lat": 26.8206, "lng": 30.8025 },
+    "titan": "Sekhmet",
+    "markerOffset": 5
+  },
+  {
+    "name": "Outpost 66",
+    "id": "outpost66",
+    "location": "Manpupuner, Russia",
+    "coordinates": { "lat": 63.0081, "lng": 59.0834 },
+    "titan": "Amhuluk",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 67",
+    "id": "outpost67",
+    "location": "Munich, Germany",
+    "coordinates": { "lat": 48.1351, "lng": 11.582 },
+    "titan": "Methuselah",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 68",
+    "id": "outpost68",
+    "location": "Volubilis, Morocco",
+    "coordinates": { "lat": 34.0746, "lng": -5.6516 },
+    "titan": "Baphomet",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 75",
+    "id": "outpost75",
+    "location": "Jebel Barkal, Sudan",
+    "coordinates": { "lat": 18.0148, "lng": 31.8236 },
+    "titan": "Mokele-Mbembe",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 77",
+    "id": "outpost77",
+    "location": "Devil's Tower, Wyoming",
+    "coordinates": { "lat": 44.5904, "lng": -104.7194 },
+    "titan": "Abaddon",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 91",
+    "id": "outpost91",
+    "location": "Mount Fuji, Japan",
+    "coordinates": { "lat": 35.3606, "lng": 138.7273 },
+    "titan": "Yamata no Orochi",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 92",
+    "id": "outpost92",
+    "location": "Angkor Wat, Cambodia",
+    "coordinates": { "lat": 13.4125, "lng": 103.8564 },
+    "titan": "Typhon",
+    "markerOffset": 25
+  },
+  {
+    "name": "Outpost 99",
+    "id": "outpost99",
+    "location": "Ayers Rock, Australia",
+    "coordinates": { "lat": -25.3444, "lng": 131.0369 },
+    "titan": "Bunyip",
+    "markerOffset": 25
+  }
+]
