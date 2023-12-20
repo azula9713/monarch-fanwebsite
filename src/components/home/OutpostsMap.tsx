@@ -5,9 +5,10 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 
+import { CustomMarker } from "../custom";
+
 import worldMapJSON from "../../data/features.json";
 import outpostsJSON from "../../data/outposts.json";
-import CustomMarker from "../custom/CustomMarker";
 
 function OutpostsMap() {
   return (

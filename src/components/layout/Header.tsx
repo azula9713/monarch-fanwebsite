@@ -1,10 +1,10 @@
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import { NavLink } from "react-router-dom";
 
+import { Logo } from "../common";
+import { ConnectedButton, LastTitanAppearance } from "../custom";
+
 import { navPaths } from "../../constants/Navigation";
-import Logo from "../common/Logo";
-import ConnectedButton from "./ConnectedButton";
-import LastTitanAppearance from "./LastTitanAppearance";
 
 function Header() {
   return (

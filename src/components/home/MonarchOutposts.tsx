@@ -1,4 +1,4 @@
-import Title from "../common/Title";
+import { Title } from "../common";
 import OutpostsMap from "./OutpostsMap";
 import TitanSummary from "./TitanSummary";
 

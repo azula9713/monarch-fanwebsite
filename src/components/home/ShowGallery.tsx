@@ -4,9 +4,10 @@ import {
 } from "@heroicons/react/20/solid";
 import { useState } from "react";
 
+import { Title } from "../common";
+import { ShowGalleryItem } from "../custom";
+
 import { rawShowData, showPosters } from "../../constants/Shows";
-import Title from "../common/Title";
-import ShowGalleryItem from "../custom/ShowGalleryItem";
 
 function ShowGallery() {
   const [shows, setShows] = useState(showPosters);

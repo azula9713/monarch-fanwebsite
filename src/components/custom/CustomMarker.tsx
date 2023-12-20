@@ -1,7 +1,9 @@
 import { Marker } from "react-simple-maps";
-import { lightGray, monarchPrimary } from "../../constants/Colors";
+
 import IOutpost from "../../interfaces/IOutpost";
 import { useSelectedOutpostStore } from "../../store";
+
+import { lightGray, monarchPrimary } from "../../constants/Colors";
 
 type Props = {
   outpost: IOutpost;

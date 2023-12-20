@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
-import TitansData from "../../data/titans.json";
 import { IBaseTitan } from "../../interfaces/ITitan";
 import { useSelectedOutpostStore } from "../../store";
-import DataField from "../common/DataField";
-import WindowHeader from "../common/WindowHeader";
-import MonarchFolder from "../custom/MonarchFolder";
+import { DataField, WindowHeader } from "../common";
+import { MonarchFolder } from "../custom";
+
+import TitansData from "../../data/titans.json";
 
 export default function TitanSummary() {
   const selectedOutpost = useSelectedOutpostStore(

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 import IActivity, { IRawData } from "../../interfaces/IActivity";
-import Title from "../common/Title";
-import FullSizeImageViewer from "../custom/FullSizeImageViewer";
+import { Title } from "../common";
+import { FullSizeImageViewer } from "../custom";
 import MonarchActivity from "./MonarchActivity";
 
 function MonarchActivities() {

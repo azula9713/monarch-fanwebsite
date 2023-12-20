@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
-
 import { ScaleLoader } from "react-spinners";
 
 function ConnectedButton() {
-  // generate numbers betwwen 1-99 and add 0 if less than 10 and change every 3 seconds
-
   const [randomDatalink, setRandomDatalink] = useState<string>("00");
 
   useEffect(() => {

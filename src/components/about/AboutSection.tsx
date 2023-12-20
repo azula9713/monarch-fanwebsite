@@ -1,4 +1,4 @@
-import Title from "../common/Title";
+import { Title } from "../common";
 
 type Props = {
   sectionTitle: string;

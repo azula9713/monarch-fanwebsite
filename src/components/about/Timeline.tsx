@@ -1,4 +1,4 @@
-import Title from "../common/Title";
+import { Title } from "../common";
 import TimelineSection from "./TimelineSection";
 
 import MUTAImage from "../../assets/images/MUTA.png";
