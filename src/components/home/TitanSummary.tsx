@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import { IBaseTitan } from "../../interfaces/ITitan";
 import { useSelectedOutpostStore } from "../../store";
-import { DataField, WindowHeader } from "../common";
+import { DataField, ProfileCardTitle, WindowHeader } from "../common";
 import { MonarchFolder } from "../custom";
 
 import TitansData from "../../data/titans.json";
@@ -76,10 +76,7 @@ export default function TitanSummary() {
               }}
             />
           </div>
-
-          <div className="bg-monarchSecondary xxs:text-xl md:text-3xl font-oxanium text-white uppercase font-bold tracking-wider px-2 w-full">
-            Titan Statistics
-          </div>
+          <ProfileCardTitle title="Titan Statistics" />
           <div className="flex flex-col items-start justify-center space-y-2 p-2 font-oxanium">
             <DataField propTitle="Monarch Designation" propValue={titan.name} />
             <DataField
@@ -106,15 +103,14 @@ export default function TitanSummary() {
               }
             />
           </div>
-          <div className="bg-monarchSecondary xxs:text-xl md:text-3xl font-oxanium text-white uppercase font-bold tracking-wider px-2 w-full">
-            Classified Archives
-          </div>
+          <ProfileCardTitle title="Classified Archives" />
           <div className="flex items-start justify-center space-x-2 lg:space-x-4 px-2 font-oxanium w-full">
             <MonarchFolder icon="folder1" folderTitle="Details" />
             <MonarchFolder icon="folder1" folderTitle="Operations" />
             {titan.images.length > 0 && (
               <MonarchFolder icon="folder1" folderTitle="Gallery" />
             )}
+            P
           </div>
         </div>
       )}
