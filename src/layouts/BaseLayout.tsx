@@ -9,7 +9,7 @@ function BaseLayout({ children }: Readonly<Props>) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className="w-full flex flex-col items-center">{children}</main>
     </>
   );
 }

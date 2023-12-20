@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "year": "1915",
+    "textSide": "right",
+    "title": "Splitting the Atom",
+    "description": "Albert Einstein's general theory of relativity ultimately leads to the splitting of the atom and the dawn of the Atomic Age. This epoch-defining stage in human evolution will act as a beacon that awakens ancient superspecies sustained by nuclear energy."
+  },
+  {
+    "id": 2,
+    "year": "1943",
+    "textSide": "left",
+    "title": "The U.S.S Lawton Incident",
+    "description": "In 1943, William Randa was serving on the U.S.S. Lawton when the ship came under attack by an Ion Dragon. The destruction it brought sunk the ship and left Randa the sole survivor. Haunted by the memory of that day, Randa came to believe that such creatures have no conscience and determined to destroy them, went on to become one of Monarch's foremost operatives, searching for the truth behind the ancient creatures that exist beneath the surface of the world."
+  },
+  {
+    "id": 3,
+    "year": "1946",
+    "textSide": "right",
+    "title": "Monarch Founded",
+    "description": "In the aftermath and cover-up of the U.S.S. Lawton Incident, President Truman unofficially establishes 'Monarch Unit', a small, off-book research team established to engage in the systematic study of 'massive unidentified terrestrial organisms'. Privately, many of Truman's allies question the validity of the group's theories and work to keep their existence a secret."
+  },
+  {
+    "id": 4,
+    "year": "1952",
+    "textSide": "left",
+    "title": "The Great Smog of London",
+    "description": "Baffling meteorologists and defying atmospheric physicists, this unexplained phenomenon saw London's streets overwhelmed by huge clouds of air-polluting smoke. Monarch theorizes that the beating wings of a giant creature could have created an anticyclone that unleashed airborne pollutants across the city."
+  },
+  {
+    "id": 5,
+    "year": "1954",
+    "textSide": "right",
+    "title": "Monarch Goes Global",
+    "description": "The organization is officially established as Monarch, an international coalition of scientists and soldiers who's mission is to discover the truth behind the ancient creatures that exist beneath the surface of the world."
+  }
+]
