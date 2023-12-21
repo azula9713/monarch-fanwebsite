@@ -1,0 +1,69 @@
+.monarch-loader:after {
+  content: "ACCESSING MONARCH SERVER...";
+  color: #fff;
+  font-family: Oxanium, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #22b4be;
+  z-index: 1;
+}
+
+.monarch-loader:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  top: -10px;
+  left: 0px;
+  height: 70px;
+  width: 0px;
+  z-index: 0;
+  opacity: 1;
+  -webkit-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-animation: monarch-loader 4s ease-in-out infinite;
+  animation: monarch-loader 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes monarch-loader {
+  0% {
+    width: 0px;
+  }
+  70% {
+    width: 100%;
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+    width: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 0px;
+  }
+}
+
+@keyframes monarch-loader {
+  0% {
+    width: 0px;
+  }
+  70% {
+    width: 100%;
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+    width: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 0px;
+  }
+}

@@ -4,10 +4,16 @@ import { useLocation } from "react-router-dom";
 import BaseLayout from "../../layouts/BaseLayout";
 
 type Props = {
-  children: React.ReactNode;
+  loader: React.ReactNode;
+  page: React.ReactNode;
+  timer?: number;
 };
 
-function LoadingComponent({ children }: Readonly<Props>) {
+function LoadingWrapper({
+  loader: loadingComponent,
+  page,
+  timer = 2,
+}: Readonly<Props>) {
   const [isLoading, setIsLoading] = useState(true);
 
   const location = useLocation();
@@ -15,19 +21,15 @@ function LoadingComponent({ children }: Readonly<Props>) {
   useEffect(() => {
     const delay = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, timer * 1000);
     return () => clearTimeout(delay);
-  }, [location]);
+  }, [location, timer]);
 
   if (isLoading) {
-    return (
-      <BaseLayout>
-        <h1 className="text-4xl text-center text-monarch">Loading...</h1>
-      </BaseLayout>
-    );
+    return <BaseLayout>{loadingComponent}</BaseLayout>;
   }
 
-  return <>{children}</>;
+  return <>{page}</>;
 }
 
-export default LoadingComponent;
+export default LoadingWrapper;

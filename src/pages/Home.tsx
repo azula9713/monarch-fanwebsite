@@ -1,6 +1,8 @@
-import MonarchActivities from "../components/home/MonarchActivities";
-import MonarchOutposts from "../components/home/MonarchOutposts";
-import ShowGallery from "../components/home/ShowGallery";
+import {
+  MonarchActivities,
+  MonarchOutposts,
+  ShowGallery,
+} from "../components/home";
 import BaseLayout from "../layouts/BaseLayout";
 
 function Home() {

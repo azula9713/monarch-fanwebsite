@@ -9,6 +9,8 @@ import { ShowGalleryItem } from "../custom";
 
 import { rawShowData, showPosters } from "../../constants/Shows";
 
+import "../../assets/css/ShowGallery.css";
+
 function ShowGallery() {
   const [shows, setShows] = useState(showPosters);
 
