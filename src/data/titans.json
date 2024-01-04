@@ -15,6 +15,27 @@
     "images": ["/images/titans/Godzilla1.jpeg"]
   },
   {
+    "id": "mutoMale",
+    "name": "MUTO (male)",
+    "altnames": [
+      "Massive Unidentified Terrestrial Organism",
+      "MUTO",
+      "Winged MUTO",
+      "Hokmuto",
+      "Tengumuto"
+    ],
+    "classification": "Titanus MUTO",
+    "species": "Prehistoric Parasite",
+    "height": "200 feet",
+    "tail": null,
+    "wingspan": null,
+    "outpostId": "",
+    "nature": "Bio Electromagnetic",
+    "behavior": "Destroyer",
+    "range": "Worldwide",
+    "images": ["/images/titans/MUTO1.jpeg"]
+  },
+  {
     "id": "muto",
     "name": "MUTO Prime",
     "altnames": [
